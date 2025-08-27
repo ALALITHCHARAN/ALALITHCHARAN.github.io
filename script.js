@@ -482,7 +482,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const originalText = submitBtn.innerHTML;
             
             // Create professional email body
-            const emailBody = `Hello Amitabh,
+            const emailBody = `Hello Lalith,
 
 I hope this message finds you well. I'm reaching out regarding potential collaboration opportunities.
 
