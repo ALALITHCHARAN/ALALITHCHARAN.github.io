@@ -1,17 +1,17 @@
-# Amitabh's Portfolio Collection
+# Lalith's Portfolio Collection
 
-This repository contains multiple versions of Amitabh Soni's portfolio website, showcasing DevOps skills and projects.
+This repository contains multiple versions of Lalith's portfolio website, showcasing DevOps skills and projects.
 
 ## 📁 Repository Structure
 
 ```
-Amitabh_Portfolio/
+Lalith_Portfolio/
 ├── Modern-Portfolio/           # ✨ NEW: Modern, responsive portfolio
 │   ├── index.html             # Main website file
 │   ├── styles.css             # Modern CSS with animations
 │   ├── script.js              # Interactive JavaScript
 │   ├── README.md              # Detailed documentation
-│   ├── Amitabh-DevOps-Resume-14-5-2025.pdf
+│   ├── Lalith-DevOps-Resume.pdf
 │   └── public/                # Images and assets
 │       ├── img5.png           # Profile image
 │       ├── Project1.jpg       # Project screenshots
@@ -22,7 +22,7 @@ Amitabh_Portfolio/
 │   ├── style.css              # Original CSS
 │   ├── script.js              # Original JavaScript
 │   └── public/                # Original images
-├── Amitabh-DevOps-Resume-14-5-2025.pdf  # Resume file
+├── Lalith-DevOps-Resume.pdf  # Resume file
 └── README.md                  # This file
 ```
 
@@ -120,14 +120,14 @@ Both portfolios can be deployed to:
 
 ## 📞 Contact Information
 
-- **LinkedIn**: [linkedin.com/in/amitabh-soni](https://linkedin.com/in/amitabh-soni)
-- **GitHub**: [github.com/Amitabh-DevOps](https://github.com/Amitabh-DevOps)
-- **Twitter**: [x.com/Amitabh_DevOps](https://x.com/Amitabh_DevOps)
+- **LinkedIn**: [linkedin.com/in/amitabh-soni](https://www.linkedin.com/in/lalith-charan-ampabathina)
+- **GitHub**: [github.com/Amitabh-DevOps](https://github.com/ALALITHCHARAN)
+- **Twitter**: [x.com/Amitabh_DevOps](https://x.com/)
 
 ## 📄 Resume
 
 The latest resume is available in both portfolio versions:
-- **File**: `Amitabh-DevOps-Resume-14-5-2025.pdf`
+- **File**: `Lalith-DevOps-Resume.pdf`
 - **Direct download**: Available through the resume section of both portfolios
 
 ## 🎯 Recommendations
