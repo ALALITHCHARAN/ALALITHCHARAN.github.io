@@ -1,7 +1,7 @@
 // Skills data
 const skillsData = {
     cloud: [
-        { title: "Linux", img: "https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" },
+        { title: "Linux", img: "https://www.vectorlogo.zone/logos/linux/linux-icon.svg" },
         { title: "AWS", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png" },
         { title: "Docker", img: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg" },
         { title: "Kubernetes", img: "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" },
@@ -10,11 +10,12 @@ const skillsData = {
     ],
     development: [
         // { title: "Python", img: "https://www.vectorlogo.zone/logos/python/python-icon.svg" },
-        { title: "Jenkins", img: "https://www.jenkins.io/images/logos/jenkins/jenkins.svg" },
-        { title: "Git", img: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" },
-        { title: "GitHub", img: "https://cdn-icons-png.flaticon.com/512/25/25231.png" },
+        { title: "Jenkins", img: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" },
+        { title: "Git", img: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" },
+        { title: "GitHub", img: "https://www.vectorlogo.zone/logos/github/github-icon.svg" },
+        { title: "GitLab", img: "https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" },
         { title: "GitHub Actions", img: "https://avatars.githubusercontent.com/u/44036562?s=200&v=4" },
-        { title: "ArgoCD", img: "https://avatars.githubusercontent.com/u/30269780?s=200&v=4" },
+        { title: "ArgoCD", img: "https://www.vectorlogo.zone/logos/argoprojio/argoprojio-icon.svg" },
         { title: "Bash", img: "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" },
         { title: "Prometheus", img: "https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" },
         { title: "Grafana", img: "https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" },
@@ -175,7 +176,7 @@ function initializeScrollAnimations() {
 // Typing effect for hero section
 function initializeTypingEffect() {
     const typingText = document.querySelector('.typing-text');
-    const texts = ['DevOps Enthusiast', 'Cloud Explorer', 'Automation Advocate', 'CI/CD Specialist'];
+    const texts = ['DevOps Enthusiast', 'Cloud Explorer', 'Automation Advocate', 'CI/CD Specialist', 'Kubernetes Orchestrator', 'Monitoring & Observability', 'Pipeline Builder', 'Continuous Improvement'];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
