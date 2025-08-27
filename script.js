@@ -18,7 +18,11 @@ const skillsData = {
         { title: "Bash", img: "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" },
         { title: "Prometheus", img: "https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" },
         { title: "Grafana", img: "https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" },
-        { title: "Nginx", img: "https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg" }
+        { title: "Nginx", img: "https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg" },
+        { title: "ElasticSearch", img: "https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" },
+        { title: "Logstash", img: "https://www.vectorlogo.zone/logos/elasticco_logstash/elasticco_logstash-icon.svg" },
+        { title: "Kibana", img: "https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" },
+        { title: "Fluentd", img: "https://www.vectorlogo.zone/logos/fluentd/fluentd-icon.svg" }
     ]
 };
 
