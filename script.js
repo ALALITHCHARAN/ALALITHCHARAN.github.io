@@ -499,7 +499,7 @@ Best regards,
 ${name}`;
             
             // Create Gmail compose URL
-            const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=amitabhdevops2024@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+            const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=lalithcharan1410@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
             
             // Show brief loading state
             submitBtn.innerHTML = 'Opening Gmail...';
