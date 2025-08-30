@@ -583,7 +583,7 @@ function initializeThemeToggle() {
 
 
 
-
+<script>
 document.addEventListener("DOMContentLoaded", () => {
   const items = document.querySelectorAll('.skill-item');
   const observer = new IntersectionObserver(entries => {
@@ -596,3 +596,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   items.forEach(item => observer.observe(item));
 });
+</script>
