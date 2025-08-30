@@ -2618,63 +2618,51 @@ section {
 
 
 
-/* === DevOps Theme Overrides === */
 
-/* Colors tuned to DevOps (Blue, Orange, Green) */
-:root {
-  --primary-color: #2563eb;   /* CI/CD Blue */
-  --primary-dark: #1d4ed8;
-  --accent-color: #ff9900;    /* AWS Orange */
-  --infra-color: #22c55e;     /* Kubernetes Green */
+
+
+/* === DevOps Feel Enhancements === */
+
+/* Background - subtle gradient grid effect */
+body {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #111827 100%);
+  background-attachment: fixed;
+  position: relative;
+  overflow-x: hidden;
 }
 
-/* Hero Title - stronger DevOps gradient */
-.hero-title {
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/* Optional animated background elements */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: radial-gradient(circle, rgba(37,99,235,0.15) 1px, transparent 1px),
+                    radial-gradient(circle, rgba(34,197,94,0.15) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  animation: bgmove 40s linear infinite;
+  z-index: -1;
 }
 
-/* Subtitle in Infra Green */
-.hero-subtitle {
-  color: var(--infra-color);
+@keyframes bgmove {
+  from { background-position: 0 0, 30px 30px; }
+  to   { background-position: 60px 60px, 90px 90px; }
 }
 
-/* Skills: terminal-style look */
+/* Skills/Tools Tiles - animate when visible */
 .skill-item {
-  background: #0f172a;
-  border: 1px solid var(--infra-color);
-  font-family: 'JetBrains Mono', monospace;
-  box-shadow: inset 0 0 8px rgba(34,197,94,0.3);
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+  transition: all 0.6s ease;
 }
+.skill-item.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Add glow hover for DevOps feel */
 .skill-item:hover {
-  border-color: var(--accent-color);
-  box-shadow: 0 0 12px rgba(255,153,0,0.4);
-}
-
-/* Project tags like badges */
-.tag {
-  font-family: 'JetBrains Mono', monospace;
-  background: #0f172a;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-
-/* Timeline markers = pipeline stages */
-.timeline-marker {
-  background: #0f172a;
-  border: 3px solid var(--accent-color);
-  box-shadow: 0 0 10px rgba(255,153,0,0.4);
-}
-
-/* Contact info styled like CLI output */
-.contact-info p {
-  font-family: 'JetBrains Mono', monospace;
-  background: #0f172a;
-  padding: 0.75rem 1rem;
-  border-left: 4px solid var(--primary-color);
-  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(37,99,235,0.4),
+              0 0 10px rgba(255,153,0,0.3);
+  transform: translateY(-8px) scale(1.05);
 }
