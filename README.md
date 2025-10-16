@@ -120,9 +120,9 @@ Both portfolios can be deployed to:
 
 ## 📞 Contact Information
 
-- **LinkedIn**: [linkedin.com/in/amitabh-soni](https://www.linkedin.com/in/lalith-charan-ampabathina)
-- **GitHub**: [github.com/Amitabh-DevOps](https://github.com/ALALITHCHARAN)
-- **Twitter**: [x.com/Amitabh_DevOps](https://x.com/)
+- **LinkedIn**: [linkedin.com/in/lalith-charan-ampabathina](https://www.linkedin.com/in/lalith-charan-ampabathina)
+- **GitHub**: [github.com/ALALITHCHARAN](https://github.com/ALALITHCHARAN)
+- **Twitter**: [x.com/ALALITHCHARAN](https://x.com/)
 
 ## 📄 Resume
 
