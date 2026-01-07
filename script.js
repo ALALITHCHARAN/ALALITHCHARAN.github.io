@@ -10,6 +10,7 @@ const skillsData = {
     ],
     development: [
         // { title: "Python", img: "https://www.vectorlogo.zone/logos/python/python-icon.svg" },
+        { title: "Helm", img: "https://www.vectorlogo.zone/logos/helmsh/helmsh-icon.svg" },
         { title: "Jenkins", img: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" },
         { title: "Git", img: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" },
         { title: "GitHub", img: "https://www.vectorlogo.zone/logos/github/github-icon.svg" },
