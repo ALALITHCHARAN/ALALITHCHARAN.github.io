@@ -2567,8 +2567,8 @@ section {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 24px;        /* move line closer to center */
-    width: 1px;        /* reduce rectangle thickness */
+    left: 32px;        /* move line closer to center */
+    width: 2px;        /* reduce rectangle thickness */
     background: var(--border-color);
 }
 
