@@ -2543,179 +2543,129 @@ section {
 */
 
 
-/* ==============================
-   EXPERIENCE SECTION – FINAL
-   ============================== */
 
-.experience {
-    padding: 6rem 0;
-    background: var(--bg-secondary);
-}
 
-/* Timeline container */
+
+
+
+/* =====================================
+   EXPERIENCE TIMELINE – FINAL VERSION
+   ===================================== */
+
 .experience-timeline {
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
+  position: relative;
+  margin-top: 3rem;
 }
 
-/* Vertical line */
-.experience-timeline::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 32px;
-    width: 2px;
-    background: var(--border-color);
-}
-
-/* Timeline item */
+/* Timeline item layout */
 .timeline-item {
-    display: grid;
-    grid-template-columns: 64px 1fr;
-    column-gap: 2rem;
-    margin-bottom: 3.5rem;
-    position: relative;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  column-gap: 1.5rem;
+  margin-bottom: 3rem;
+  align-items: flex-start;
 }
 
 /* Marker column */
 .timeline-marker {
-    display: flex;
-    justify-content: center;
-    position: relative;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* Thin vertical line */
+.timeline-marker::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: -3rem;
+  width: 1px;
+  background: #d1d5db;
+}
+
+/* Stop line after last item */
+.timeline-item:last-child .timeline-marker::before {
+  display: none;
 }
 
 /* Tick icon */
 .timeline-icon {
-    width: 36px;
-    height: 36px;
-    background: var(--primary-color);
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    box-shadow: var(--shadow-md);
+  width: 28px;
+  height: 28px;
+  background: #4f46e5;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* Content card */
+.timeline-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* Content column */
 .timeline-content {
-    grid-column: 2 / 3;
+  grid-column: 2 / 3;
 }
 
-/* Experience card */
+/* Card */
 .experience-card {
-    background: var(--bg-primary);
-    border-radius: 14px;
-    padding: 2rem;
-    box-shadow: var(--shadow-md);
-    transition: var(--transition);
+  background: #ffffff;
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 
-.experience-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-}
+/* =====================================
+   SCOPE / CONTRIBUTION / OUTCOME BLOCKS
+   ===================================== */
 
-/* Header */
-.experience-header {
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.experience-header h3 {
-    font-size: 1.3rem;
-    color: var(--primary-color);
-    margin-bottom: 0.25rem;
-}
-
-.company-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-/* Scope / Contributions / Outcome blocks */
 .experience-block {
-    margin-top: 1.25rem;
-    padding: 1rem 1.25rem;
-    border-left: 4px solid var(--primary-color);
-    background: var(--bg-secondary);
-    border-radius: 6px;
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid #4f46e5;
+  background: rgba(79, 70, 229, 0.05);
+  border-radius: 6px;
 }
 
 .experience-block h4 {
-    font-size: 0.75rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-    color: var(--primary-color);
+  margin-bottom: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #4f46e5;
+}
+
+.experience-block p,
+.experience-block li {
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .experience-block ul {
-    padding-left: 1.25rem;
-    margin: 0;
-}
-
-.experience-block li {
-    margin-bottom: 0.5rem;
-    line-height: 1.5;
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
 }
 
 /* Outcome emphasis */
 .experience-block.outcome {
-    border-left-color: #16a34a;
+  border-left-color: #16a34a;
 }
 
 .experience-block.outcome h4 {
-    color: #16a34a;
+  color: #16a34a;
 }
 
-/* Tech stack */
-.experience-technologies {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 1.25rem;
-}
 
-.tech-tag {
-    padding: 0.3rem 0.7rem;
-    font-size: 0.75rem;
-    background: var(--bg-tertiary);
-    color: var(--primary-color);
-    border-radius: 999px;
-    font-weight: 500;
-}
 
-/* ==============================
-   MOBILE FIXES
-   ============================== */
 
-@media (max-width: 768px) {
-    .experience-timeline::before {
-        left: 24px;
-    }
 
-    .timeline-item {
-        grid-template-columns: 48px 1fr;
-        column-gap: 1.25rem;
-    }
 
-    .timeline-icon {
-        width: 30px;
-        height: 30px;
-    }
-
-    .experience-card {
-        padding: 1.5rem;
-    }
-}
 
 
 
