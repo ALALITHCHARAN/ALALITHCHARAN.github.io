@@ -2874,3 +2874,71 @@ section {
 
 
 
+
+
+
+
+
+
+/* ===== Certifications Section ===== */
+.certifications-section {
+  padding: 60px 20px;
+}
+
+.certifications-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cert-card {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.cert-badge {
+  width: 140px;
+}
+
+.cert-details h3 {
+  margin-bottom: 6px;
+}
+
+.cert-org {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.cert-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.cert-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cert-links a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .cert-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cert-badge {
+    width: 120px;
+  }
+}
+
